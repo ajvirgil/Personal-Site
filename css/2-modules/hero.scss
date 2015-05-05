@@ -4,7 +4,7 @@
   $large-screen: em(860) !default;
   $hero-color: #fff;
 
-  background-color: #7ED321;
+  background-color: $pink;
   background-position: top;
   background-size: cover;
   padding-bottom: 0;
@@ -45,8 +45,10 @@
     }
 
     button {
-      @include button(flat, $action-color);
+      @include button(flat, $pink);
       padding: 0.7em 1em;
+      border-radius: $base-border-radius;
+      border: 2px solid $white;
     }
   }
 }

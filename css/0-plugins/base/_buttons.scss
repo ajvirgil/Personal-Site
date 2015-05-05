@@ -2,7 +2,7 @@
 button {
   @include appearance(none);
   -webkit-font-smoothing: antialiased;
-  background-color: $red;
+  background-color: $pink;
   border-radius: $base-border-radius;
   border: none;
   color: #fff;
@@ -20,8 +20,9 @@ button {
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 15%);
+    background-color: $red;
     color: #fff;
+    border: none;
   }
 
   &:disabled {
