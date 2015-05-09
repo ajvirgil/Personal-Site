@@ -1,0 +1,70 @@
+.intro {  
+  $base-border-radius: 3px !default;
+  $action-color: #D33D3D !default;
+  $large-screen: em(860) !default;
+  $small-screen: em(420);
+  $hero-color: $dark-gray;
+
+  background-color: $light-gray;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0;
+
+  .intro-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 9em 1em 9em 1em;
+    text-align: left;
+      
+    .intro-left {
+      @include span-columns(12);
+        @include media($large-screen) {
+        @include span-columns(4);
+}
+    }
+      
+    .intro-right {
+      @include span-columns(12);
+      @include omega();
+         @include media($large-screen) {
+        @include span-columns(8);
+}
+
+    .intro-copy {
+      text-align: left;
+      
+      h2 {
+        font-size: 3em;
+        margin-top: -.2em;
+
+        @include media($large-screen) {
+          font-size: 4em;
+        }
+      }
+        
+      p.intro {
+        margin-top: -1.8em;
+        margin-bottom: 3em;
+        line-height: 2em;
+      }
+    }
+
+    button {
+      @include button(flat, $light-gray);
+      padding: .8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $pink;
+      color: $pink;
+        
+        &:hover,
+        &:focus {
+            background-color: $red;
+            color: $red;
+            border: 3px solid $red;
+  }
+      }
+    }
+  }
+}

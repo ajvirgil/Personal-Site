@@ -14,7 +14,7 @@
     @include clearfix;
     color: $hero-color;
     margin: auto;
-    padding-top: 15em;
+    padding-top: 12em;
     padding-bottom: 10em;
     text-align: center;
 
@@ -22,11 +22,12 @@
       text-align: center;
       
       h1 {
-        font-size: 3em;
-        margin-bottom: 1.8em;
+        font-size: 3.3em;
+        margin-bottom: 1em;
+        margin-top: .1em;
 
         @include media($large-screen) {
-          font-size: 4.3em;
+          font-size: 5.5em;
         }
       }
 
@@ -37,7 +38,7 @@
         color: #D33D3D;
 
         @include media($large-screen) {
-          font-size: 1.2em;
+          font-size: 1.5em;
           max-width: 40%;
           color: #D33D3D;
         }
@@ -46,9 +47,16 @@
 
     button {
       @include button(flat, $pink);
-      padding: 0.7em 1em;
+      padding: 0.8em 2em;
       border-radius: $base-border-radius;
-      border: 2px solid $white;
+      border: 3px solid $white;
+        
+        &:hover,
+        &:focus {
+            background-color: $red;
+            color: $red;
+            border: 3px solid $red;
+  }
     }
   }
 }
