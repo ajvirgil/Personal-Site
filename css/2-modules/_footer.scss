@@ -1,0 +1,109 @@
+.footer {
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+  $footer-background: $dark-gray;
+  $footer-color: white;
+  $footer-disclaimer-color: $light-gray;
+
+  background: $footer-background;
+  padding: ($base-spacing * 2) $gutter;
+  width: 100%; 
+
+  .footer-container {
+    @include clearfix;
+    padding: 7em 1em 4em 1em;
+  }
+
+a.email {
+    color: $pink;
+    text-decoration: underline;
+    &:visited {
+      color: $medium-gray;
+    }
+    &:hover {
+      color: $medium-gray;   
+    }
+    &:active {
+      color: $medium-gray;
+    }
+  }
+    
+a.rdio {
+    color: #008FD5;
+    text-decoration: underline;
+    &:visited {
+      color: $medium-gray;
+    }
+    &:hover {
+      color: $medium-gray;   
+    }
+    &:active {
+      color: $medium-gray;
+    }
+  }
+    
+a.twitter {
+    color: #4EACFF;
+    text-decoration: underline;
+    &:visited {
+      color: $medium-gray;
+    }
+    &:hover {
+      color: $medium-gray;   
+    }
+    &:active {
+      color: $medium-gray;
+    }
+  }
+
+a.dribbble {
+    color: #EB6895;
+    text-decoration: underline;
+    &:visited {
+      color: $medium-gray;
+    }
+    &:hover {
+      color: $medium-gray;   
+    }
+    &:active {
+      color: $medium-gray;
+    }
+  }
+    
+a.default {
+    color: $white;
+    text-decoration: underline;
+    &:visited {
+      color: $medium-gray;
+    }
+    &:hover {
+      color: $medium-gray;   
+    }
+    &:active {
+      color: $medium-gray;
+    }
+  }
+  hr {
+    border: 1px solid transparentize($footer-disclaimer-color, 0.3);
+    margin: 0 auto $base-spacing;
+    width: 12em;
+  }
+
+  h3 {
+    color: $light-gray;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: auto;
+    text-align: center;
+  }
+  p {
+    color: $footer-disclaimer-color;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center;
+  }
+}
