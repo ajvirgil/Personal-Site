@@ -13,7 +13,7 @@
 
   .footer-container {
     @include clearfix;
-    padding: 7em 1em 4em 1em;
+    padding: 10em 1em 7em 1em;
   }
 
 a.email {
@@ -87,7 +87,7 @@ a.default {
   }
   hr {
     border: 1px solid transparentize($footer-disclaimer-color, 0.3);
-    margin: 0 auto $base-spacing;
+    margin: 3em auto $base-spacing;
     width: 12em;
   }
 
@@ -100,7 +100,16 @@ a.default {
   }
   p {
     color: $footer-disclaimer-color;
-    font-size: 0.9em;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center;
+  }
+
+  p.copyright {
+    color: $medium-gray;
+    font-size: 0.8em;
     line-height: 1.5em;
     margin: auto;
     max-width: 35em;
