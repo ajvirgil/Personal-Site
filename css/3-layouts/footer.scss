@@ -8,7 +8,7 @@
   $footer-disclaimer-color: $light-gray;
 
   background: $footer-background;
-  padding: ($base-spacing * 2) $gutter;
+  padding: ($base-spacing * 2);
   width: 100%; 
 
   .footer-container {
@@ -18,71 +18,36 @@
 
 a.email {
     color: $pink;
-    text-decoration: underline;
-    &:visited {
-      color: $medium-gray;
-    }
     &:hover {
-      color: $medium-gray;   
-    }
-    &:active {
-      color: $medium-gray;
+      text-decoration: line-through;
     }
   }
     
 a.rdio {
     color: #008FD5;
-    text-decoration: underline;
-    &:visited {
-      color: $medium-gray;
-    }
     &:hover {
-      color: $medium-gray;   
-    }
-    &:active {
-      color: $medium-gray;
+      text-decoration: line-through;
     }
   }
     
 a.twitter {
     color: #4EACFF;
-    text-decoration: underline;
-    &:visited {
-      color: $medium-gray;
-    }
     &:hover {
-      color: $medium-gray;   
-    }
-    &:active {
-      color: $medium-gray;
+      text-decoration: line-through;
     }
   }
 
 a.dribbble {
     color: #EB6895;
-    text-decoration: underline;
-    &:visited {
-      color: $medium-gray;
-    }
     &:hover {
-      color: $medium-gray;   
-    }
-    &:active {
-      color: $medium-gray;
+      text-decoration: line-through;
     }
   }
     
 a.default {
-    color: $white;
-    text-decoration: underline;
-    &:visited {
-      color: $medium-gray;
-    }
+    color: $medium-gray;
     &:hover {
-      color: $medium-gray;   
-    }
-    &:active {
-      color: $medium-gray;
+      text-decoration: line-through;
     }
   }
   hr {
