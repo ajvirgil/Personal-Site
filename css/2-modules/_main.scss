@@ -135,6 +135,21 @@
   }
       }
     
+    button.project {
+      @include button(flat, $pink);
+      padding: .8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $white;
+      color: $white;
+      clear: both;
+        
+        &:hover {
+            background: $white;
+            color: $white;
+            border: 3px solid $white;
+  }
+      }
+    
     hr { 
     display: block;
     margin-top: 0.5em;

@@ -31,7 +31,8 @@ a {
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+    color: $red;
+    text-decoration: line-through;
   }
 
   &:active,
