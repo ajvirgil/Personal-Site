@@ -14,7 +14,7 @@ body,
 .menu-wrap a:hover,
 .menu-wrap a:focus {
 	color: $white;
-    text-decoration: underline;
+    text-decoration: line-through;
 }
 
 .content-wrap {
@@ -33,7 +33,7 @@ body,
 /* Common styles for menu button and menu-wrap */
 .menu-button,
 .menu-wrap {
-	position: fixed;
+	position: absolute;
 	width: 2.5em;
 	height: 2.25em;
 	font-size: 1.5em;
@@ -87,32 +87,30 @@ body,
 }
 
 .icon-list a {
-	opacity: 0;
 	display: inline-block;
-	padding: 0 0.2em;
-	margin: 0 15px;
+    font-size: .75em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 15px;
+	opacity: 0;
+    padding: 0 0.2em;
 	text-align: center;
-	font-size: 1.2em;
-}
-
-.icon-list a span {
-	display: block;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 0.5em;
-	font-weight: 700;
-	padding-top: 0.5em;
 }
 
 @media screen and (max-width: 50em) {
+    
+    .icon-list {
+	padding: 5.5em 3em;
+}
+    
 	.icon-list a {
-		padding: 0.5em 0em;
-		margin: 0 5px;
-		font-size: 1.5em;
-	}
-	.icon-list a span {
-		display: inline;
+        display: block;
         clear: both;
+        text-align: center;
+		padding: 0.5em 0em;
+		margin: -20px 40px;
+		font-size: 1.75em;
 	}
 }
 
@@ -135,7 +133,7 @@ body,
 
 @media screen and (max-width: 50em) {
 	.show-menu .menu-wrap {
-		height: 280px;
+		height: 100%;
 	}
 }
 .show-menu .icon-list a {

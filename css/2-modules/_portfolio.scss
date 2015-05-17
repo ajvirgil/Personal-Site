@@ -1,0 +1,172 @@
+.portfolio {  
+  $base-border-radius: 3px !default;
+  $action-color: #D33D3D !default;
+  $large-screen: em(860) !default;
+  $medium-screen: em(640);
+  $hero-color: $dark-gray;
+
+  background-color: $light-gray;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0;
+
+  .portfolio-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 9em 1em 8em 1em;
+    text-align: center;
+  }
+    
+    .portfolio-copy {
+      text-align: center;
+        
+        h2 {
+            font-size: 3em;
+            margin-top: -.2em;
+
+            @include media($large-screen) {
+              font-size: 4em;
+            }
+      }
+
+    }
+
+    button {
+      @include button(flat, $light-gray);
+      padding: .8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $pink;
+      color: $pink;
+      clear: both;
+        
+        &:hover {
+            background: $red;
+            color: $red;
+            border: 3px solid $red;
+  }
+      }
+    
+        button.project {
+      @include button(flat, $pink);
+      padding: .8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $white;
+      color: $white;
+      clear: both;
+        
+        &:hover {
+            background: $white;
+            color: $white;
+            border: 3px solid $white;
+  }
+      }
+        
+}
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 80px;
+	background: $pink;
+	color: $white;
+}
+
+.grid figcaption h4 {
+	margin-top: -.35em;
+	padding: 0;
+	color: #fff;
+    font-size: 3em;
+}
+
+.grid figcaption span:before {
+	content: 'by ';
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+/* Caption Style */
+.cs-style-1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: .87;
+	-webkit-transform: translate(15px, 15px);
+	-moz-transform: translate(15px, 15px);
+	-ms-transform: translate(15px, 15px);
+	transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+	margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+    
+    .grid figcaption {
+	padding: 30px;
+    }
+}

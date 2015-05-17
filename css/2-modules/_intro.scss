@@ -16,7 +16,10 @@
     color: $hero-color;
     margin: auto;
     padding: 9em 1em 9em 1em;
-    text-align: left;
+    text-align: center;
+      @include media($large-screen) {
+            text-align: left;
+        }
       
     .col-4 {
       @include span-columns(12);
@@ -33,14 +36,15 @@
 }
 
     .intro-copy {
-      text-align: left;
       
       h2 {
         font-size: 3em;
         margin-top: -.2em;
+        text-align: center;
 
         @include media($large-screen) {
           font-size: 4em;
+            text-align: left;
         }
       }
         
@@ -48,6 +52,20 @@
         margin-top: -1.8em;
         margin-bottom: 3em;
         line-height: 2em;
+        text-align: center;
+          
+          @include media($large-screen) {
+            text-align: left;
+        }
+      }
+        
+      p.lead {
+        text-align: center;
+          margin-top: 2em;
+          
+          @include media($large-screen) {
+            text-align: left;
+        }
       }
     }
 
