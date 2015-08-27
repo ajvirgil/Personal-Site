@@ -391,8 +391,8 @@ picture {
     margin-right: auto;
     color: #fff;
     margin: auto;
-    padding-top: 12em;
-    padding-bottom: 10em;
+    padding-top: 9em;
+    padding-bottom: 6em;
     text-align: center; }
     .hero .hero-inner::after {
       clear: both;
@@ -402,6 +402,9 @@ picture {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 53.75em) {
+      .hero .hero-inner {
+        padding: 12em 0 10em 0; } }
     .hero .hero-inner .hero-copy {
       text-align: center; }
       .hero .hero-inner .hero-copy h1 {
@@ -450,7 +453,7 @@ picture {
         border: 3px solid #F4F4F4; }
 
 .intro {
-  background-color: #F4F4F4;
+  background-color: #ffffff;
   background-position: top;
   background-size: cover;
   padding-bottom: 0; }
@@ -460,7 +463,7 @@ picture {
     margin-right: auto;
     color: #4A4A4A;
     margin: auto;
-    padding: 9em 1em 7em 1em;
+    padding: 5em 1em 1em 1em;
     text-align: center; }
     .intro .intro-inner::after {
       clear: both;
@@ -472,7 +475,8 @@ picture {
       display: table; }
     @media screen and (min-width: 53.75em) {
       .intro .intro-inner {
-        text-align: left; } }
+        text-align: left;
+        padding: 9em 1em 7em 1em; } }
     .intro .intro-inner .col-4 {
       float: left;
       display: block;
@@ -488,6 +492,12 @@ picture {
           width: 28.24207%; }
           .intro .intro-inner .col-4:last-child {
             margin-right: 0; } }
+      .intro .intro-inner .col-4 img {
+        display: inline-block;
+        margin-bottom: 1em; }
+        @media screen and (min-width: 53.75em) {
+          .intro .intro-inner .col-4 img {
+            margin-top: 2.5em; } }
     .intro .intro-inner .col-8 {
       float: left;
       display: block;
@@ -572,7 +582,7 @@ picture {
           border: 3px solid #D33D3D; }
 
 .skills {
-  background-color: #ffffff;
+  background-color: #F4F4F4;
   background-position: top;
   background-size: cover;
   padding-bottom: 0; }
@@ -582,7 +592,7 @@ picture {
     margin-right: auto;
     color: #4A4A4A;
     margin: auto;
-    padding: 9em 1em 7em 1em;
+    padding: 5em 1em 1em 1em;
     text-align: center; }
     .skills .skills-inner::after {
       clear: both;
@@ -592,6 +602,9 @@ picture {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 53.75em) {
+      .skills .skills-inner {
+        padding: 9em 1em 7em 1em; } }
     .skills .skills-inner .skills-container {
       max-width: 68em;
       margin-left: auto;
@@ -741,7 +754,7 @@ picture {
       border: 3px solid #D33D3D; }
 
 .portfolio {
-  background-color: #F4F4F4;
+  background-color: #ffffff;
   background-position: top;
   background-size: cover;
   padding-bottom: 0; }
@@ -751,7 +764,7 @@ picture {
     margin-right: auto;
     color: #4A4A4A;
     margin: auto;
-    padding: 9em 1em 8em 1em;
+    padding: 5em 1em 5em 1em;
     text-align: center; }
     .portfolio .portfolio-inner::after {
       clear: both;
@@ -761,6 +774,9 @@ picture {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 53.75em) {
+      .portfolio .portfolio-inner {
+        padding: 9em 1em 7em 1em; } }
   .portfolio .portfolio-copy {
     text-align: center; }
     .portfolio .portfolio-copy h2 {
@@ -791,6 +807,7 @@ picture {
     text-decoration: none;
     background-clip: padding-box;
     padding: .8em 2em;
+    background: #ffffff;
     border-radius: 40px;
     border: 3px solid #FF5951;
     color: #FF5951;
@@ -922,7 +939,7 @@ picture {
 
 @media screen and (max-width: 31.5em) {
   .grid {
-    padding: 10px 10px 100px 10px; }
+    padding: 10px 10px 30px 10px; }
 
   .grid li {
     width: 100%;
@@ -1088,6 +1105,11 @@ picture {
     margin-top: -1.8em;
     margin-bottom: 3em;
     line-height: 2em; }
+  .main .main-copy p.main-left {
+    margin-top: -1.8em;
+    margin-bottom: 3em;
+    line-height: 2em;
+    text-align: left; }
   .main .main-copy p.description {
     clear: both;
     margin-top: -1.8em;
@@ -1184,6 +1206,157 @@ picture {
     margin-bottom: 2em;
     border: solid 2px;
     width: 100%; }
+
+.mda {
+  background-color: #FFBF00;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0; }
+  .mda .mda-inner {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin: auto;
+    padding-top: 9em;
+    padding-bottom: 6em;
+    text-align: center; }
+    .mda .mda-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .mda .mda-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 53.75em) {
+      .mda .mda-inner {
+        padding: 12em 0 10em 0; } }
+    .mda .mda-inner .mda-copy {
+      text-align: center; }
+      .mda .mda-inner .mda-copy h1 {
+        font-size: 3.3em;
+        margin-bottom: 1em;
+        margin-top: .1em; }
+        @media screen and (min-width: 53.75em) {
+          .mda .mda-inner .mda-copy h1 {
+            font-size: 5.5em; } }
+      .mda .mda-inner .mda-copy h5 {
+        font-weight: 600;
+        line-height: 1em;
+        margin: 0 auto;
+        color: #D33D3D; }
+        @media screen and (min-width: 53.75em) {
+          .mda .mda-inner .mda-copy h5 {
+            font-size: 1.5em;
+            max-width: 40%;
+            color: #D33D3D; } }
+    .mda .mda-inner button {
+      background-color: #FF5951;
+      border-radius: 3px;
+      border: 0;
+      color: white;
+      display: inline-block;
+      font-size: inherit;
+      font-weight: bold;
+      padding: 7px 18px;
+      text-decoration: none;
+      background-clip: padding-box;
+      padding: 0.8em 2em;
+      border-radius: 40px;
+      border: 3px solid #ffffff; }
+      .mda .mda-inner button:hover:not(:disabled) {
+        background-color: #ff716a;
+        cursor: pointer; }
+      .mda .mda-inner button:active:not(:disabled), .mda .mda-inner button:focus:not(:disabled) {
+        background-color: #fb443b;
+        cursor: pointer; }
+      .mda .mda-inner button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5; }
+      .mda .mda-inner button:hover, .mda .mda-inner button:focus {
+        background-color: #D33D3D;
+        color: #F4F4F4;
+        border: 3px solid #F4F4F4; }
+
+.project-nav {
+  background-color: #F4F4F4;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0em; }
+  .project-nav .project-nav-inner {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4A4A4A;
+    margin: auto;
+    padding: 0;
+    text-align: center; }
+    .project-nav .project-nav-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .project-nav .project-nav-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 53.75em) {
+      .project-nav .project-nav-inner {
+        padding: 1em 1em 1em 0em; } }
+    .project-nav .project-nav-inner .project-nav-container {
+      max-width: 68em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0em; }
+      .project-nav .project-nav-inner .project-nav-container::after {
+        clear: both;
+        content: "";
+        display: table; }
+      .project-nav .project-nav-inner .project-nav-container::after {
+        clear: both;
+        content: "";
+        display: table; }
+      .project-nav .project-nav-inner .project-nav-container .col-6-1 {
+        float: left;
+        display: block;
+        margin-right: 7.63689%;
+        width: 46.18156%;
+        margin-top: 1em;
+        margin-bottom: 0; }
+        .project-nav .project-nav-inner .project-nav-container .col-6-1:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 640px) {
+          .project-nav .project-nav-inner .project-nav-container .col-6-1 {
+            float: left;
+            display: block;
+            margin-right: 7.63689%;
+            width: 100%; }
+            .project-nav .project-nav-inner .project-nav-container .col-6-1:last-child {
+              margin-right: 0; } }
+      .project-nav .project-nav-inner .project-nav-container .col-6-2 {
+        float: left;
+        display: block;
+        margin-right: 7.63689%;
+        width: 46.18156%;
+        margin-right: 0;
+        margin-top: 1em;
+        margin-bottom: 0; }
+        .project-nav .project-nav-inner .project-nav-container .col-6-2:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 640px) {
+          .project-nav .project-nav-inner .project-nav-container .col-6-2 {
+            float: left;
+            display: block;
+            margin-right: 7.63689%;
+            width: 100%; }
+            .project-nav .project-nav-inner .project-nav-container .col-6-2:last-child {
+              margin-right: 0; } }
+  .project-nav .project-nav-copy {
+    text-align: center; }
+    .project-nav .project-nav-copy p.project-nav-left {
+      text-align: center; }
+    .project-nav .project-nav-copy p.project-nav-right {
+      text-align: center; }
 
 .footer {
   background: #4A4A4A;

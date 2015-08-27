@@ -1,0 +1,65 @@
+.project-nav {  
+  $base-border-radius: 3px !default;
+  $action-color: #D33D3D !default;
+  $large-screen: em(860) !default;
+  $medium-screen: em(640);
+  $hero-color: $dark-gray;
+
+  background-color: $light-gray;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0em;
+
+  .project-nav-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+      @include media($large-screen) {
+            padding: 1em 1em 1em 0em;
+        }
+      
+    .project-nav-container {
+        @include outer-container;
+        @include clearfix;
+        margin-bottom: 0em;
+      
+      .col-6-1 {
+          @include span-columns(6);
+          margin-top: 1em;
+          margin-bottom: 0;
+          @include media(max-width 640px) {
+              @include span-columns(12);
+}
+    }
+      .col-6-2 {
+          @include span-columns(6);
+          @include omega();
+          margin-top: 1em;
+          margin-bottom: 0;
+          @include media(max-width 640px) {
+              @include span-columns(12);
+}
+    }
+      
+  }
+  }
+    
+    .project-nav-copy {
+      text-align: center;
+        
+        p.project-nav-left {
+            text-align: center;
+            
+      }
+        
+        p.project-nav-right {
+            text-align: center;
+            
+      }
+
+    }
+
+}

@@ -1,15 +1,15 @@
-.hero {  
+.mda {  
   $base-border-radius: 3px !default;
   $action-color: #D33D3D !default;
   $large-screen: em(860) !default;
   $hero-color: #fff;
 
-  background-color: $pink;
+  background-color: #FFBF00;
   background-position: top;
   background-size: cover;
   padding-bottom: 0;
 
-  .hero-inner {
+  .mda-inner {
     @include outer-container;
     @include clearfix;
     color: $hero-color;
@@ -21,7 +21,7 @@
             padding: 12em 0 10em 0;
         }
 
-    .hero-copy {
+    .mda-copy {
       text-align: center;
       
       h1 {

@@ -5,7 +5,7 @@
   $medium-screen: em(640);
   $hero-color: $dark-gray;
 
-  background-color: $white;
+  background-color: $light-gray;
   background-position: top;
   background-size: cover;
   padding-bottom: 0;
@@ -15,8 +15,11 @@
     @include clearfix;
     color: $hero-color;
     margin: auto;
-    padding: 9em 1em 7em 1em;
+    padding: 5em 1em 1em 1em;
     text-align: center;
+      @include media($large-screen) {
+            padding: 9em 1em 7em 1em;
+        }
       
     .skills-container {
         @include outer-container;
