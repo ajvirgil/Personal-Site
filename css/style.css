@@ -609,7 +609,7 @@ picture {
       max-width: 68em;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 0em; }
+      margin-bottom: 2em; }
       .skills .skills-inner .skills-container::after {
         clear: both;
         content: "";
@@ -622,13 +622,14 @@ picture {
         float: left;
         display: block;
         margin-right: 7.63689%;
-        width: 46.18156%;
+        width: 64.12104%;
         margin-top: 2em;
         margin-bottom: 0; }
         .skills .skills-inner .skills-container .col-6-1:last-child {
           margin-right: 0; }
         @media screen and (max-width: 640px) {
           .skills .skills-inner .skills-container .col-6-1 {
+            margin-bottom: 2em;
             float: left;
             display: block;
             margin-right: 7.63689%;
@@ -639,7 +640,7 @@ picture {
         float: left;
         display: block;
         margin-right: 7.63689%;
-        width: 46.18156%;
+        width: 28.24207%;
         margin-right: 0;
         margin-top: 2em;
         margin-bottom: 0; }
@@ -652,41 +653,6 @@ picture {
             margin-right: 7.63689%;
             width: 100%; }
             .skills .skills-inner .skills-container .col-6-2:last-child {
-              margin-right: 0; } }
-      .skills .skills-inner .skills-container .col-6-3 {
-        float: left;
-        display: block;
-        margin-right: 7.63689%;
-        width: 46.18156%;
-        margin-top: 2em;
-        margin-bottom: 0; }
-        .skills .skills-inner .skills-container .col-6-3:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 640px) {
-          .skills .skills-inner .skills-container .col-6-3 {
-            float: left;
-            display: block;
-            margin-right: 7.63689%;
-            width: 100%; }
-            .skills .skills-inner .skills-container .col-6-3:last-child {
-              margin-right: 0; } }
-      .skills .skills-inner .skills-container .col-6-4 {
-        float: left;
-        display: block;
-        margin-right: 7.63689%;
-        width: 46.18156%;
-        margin-right: 0;
-        margin-top: 2em;
-        margin-bottom: 0; }
-        .skills .skills-inner .skills-container .col-6-4:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 640px) {
-          .skills .skills-inner .skills-container .col-6-4 {
-            float: left;
-            display: block;
-            margin-right: 7.63689%;
-            width: 100%; }
-            .skills .skills-inner .skills-container .col-6-4:last-child {
               margin-right: 0; } }
   .skills .skills-copy {
     text-align: center; }
@@ -705,8 +671,20 @@ picture {
           font-size: 2em; } }
     .skills .skills-copy p.skills {
       margin-top: -1.8em;
-      margin-bottom: 3em;
-      line-height: 2em; }
+      margin-bottom: 0em;
+      line-height: 2em;
+      text-align: center; }
+      @media screen and (min-width: 53.75em) {
+        .skills .skills-copy p.skills {
+          text-align: left; } }
+    .skills .skills-copy ul {
+      list-style-type: circle;
+      list-style-position: inside;
+      list-style-image: none;
+      text-align: center; }
+      @media screen and (min-width: 53.75em) {
+        .skills .skills-copy ul {
+          text-align: left; } }
   .skills button {
     background-color: #ffffff;
     border-radius: 3px;

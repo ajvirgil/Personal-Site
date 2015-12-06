@@ -24,45 +24,29 @@
     .skills-container {
         @include outer-container;
         @include clearfix;
-        margin-bottom: 0em;
+        margin-bottom: 2em;
       
       .col-6-1 {
-          @include span-columns(6);
+          @include span-columns(8);
           margin-top: 2em;
           margin-bottom: 0;
           @include media(max-width 640px) {
+              margin-bottom: 2em;
               @include span-columns(12);
 }
     }
       .col-6-2 {
-          @include span-columns(6);
+          @include span-columns(4);
           @include omega();
           margin-top: 2em;
           margin-bottom: 0;
           @include media(max-width 640px) {
               @include span-columns(12);
+              
 }
     }
       
-      .col-6-3 {
-          @include span-columns(6);
-          margin-top: 2em;
-          margin-bottom: 0;
-          @include media(max-width 640px) {
-              @include span-columns(12);
-}
-          
-
-    }
-      .col-6-4 {
-          @include span-columns(6);
-          @include omega();
-          margin-top: 2em;
-          margin-bottom: 0;
-          @include media(max-width 640px) {
-              @include span-columns(12);
-}
-    } 
+      
   }
   }
     
@@ -89,9 +73,25 @@
       }
         p.skills {
             margin-top: -1.8em;
-            margin-bottom: 3em;
+            margin-bottom: 0em;
             line-height: 2em;
+            text-align: center;
+            
+             @include media($large-screen) {
+          text-align: left;
+        }
       }
+        
+        ul {
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image: none;
+            text-align: center;
+            
+            @include media($large-screen) {
+          text-align: left;
+        }
+}
 
     }
 
