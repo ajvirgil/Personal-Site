@@ -1,0 +1,74 @@
+.action {  
+  $base-border-radius: 3px !default;
+  $action-color: #D33D3D !default;
+  $large-screen: em(860) !default;
+  $hero-color: #fff;
+
+  background-color: $pink;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0;
+
+  .action-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+      @include media($large-screen) {
+            padding: 3em 0 3em 0;
+        }
+
+    .action-copy {
+      text-align: center;
+
+      h3 {
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1em;
+        margin: 0em;
+        color: #fff;
+
+        @include media($large-screen) {
+          font-size: 1.5em;
+          color: #fff;
+        }
+      
+        a {
+  color: $red;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $red;
+    text-decoration: line-through;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+          
+        }
+    }
+
+    button {
+      @include button(flat, $pink);
+      padding: 0.8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $white;
+        
+        &:hover,
+        &:focus {
+            background-color: $red;
+            color: $light-gray;
+            border: 3px solid $light-gray;
+  }
+    }
+  }
+}

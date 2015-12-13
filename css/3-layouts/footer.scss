@@ -13,7 +13,11 @@
 
   .footer-container {
     @include clearfix;
-    padding: 10em 1em 7em 1em;
+    padding: 4em 1em 4em 1em;
+      
+      @include media($large-screen) {
+            padding: 10em 1em 7em 1em;
+        }
   }
 
 a.email {
@@ -23,8 +27,8 @@ a.email {
     }
   }
     
-a.rdio {
-    color: #008FD5;
+a.spotify {
+    color: #23CF5F;
     &:hover {
       text-decoration: line-through;
     }
@@ -67,7 +71,7 @@ a.default {
     color: $footer-disclaimer-color;
     font-size: 1em;
     line-height: 1.5em;
-    margin: auto;
+    margin: 2em auto 0em auto;
     max-width: 35em;
     text-align: center;
   }

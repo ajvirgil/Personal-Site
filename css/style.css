@@ -497,7 +497,7 @@ picture {
         margin-bottom: 1em; }
         @media screen and (min-width: 53.75em) {
           .intro .intro-inner .col-4 img {
-            margin-top: 2.5em; } }
+            margin-top: 3em; } }
     .intro .intro-inner .col-8 {
       float: left;
       display: block;
@@ -875,14 +875,11 @@ picture {
   margin-top: -.35em;
   padding: 0;
   color: #fff;
-  font-size: 2.75em; }
+  font-size: 2.5em; }
 
 .grid figcaption a {
   text-align: center;
-  padding: 5px 10px;
-  border-radius: 2px;
   display: inline-block;
-  background: #ed4e6e;
   color: #fff; }
 
 /* Caption Style */
@@ -913,7 +910,7 @@ picture {
   display: block; }
 
 .cs-style-1 figcaption a {
-  margin-top: 30px; }
+  margin-top: 0; }
 
 @media screen and (max-width: 31.5em) {
   .grid {
@@ -1184,6 +1181,80 @@ picture {
     margin-bottom: 2em;
     border: solid 2px;
     width: 100%; }
+
+.action {
+  background-color: #FF5951;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0; }
+  .action .action-inner {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center; }
+    .action .action-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .action .action-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 53.75em) {
+      .action .action-inner {
+        padding: 3em 0 3em 0; } }
+    .action .action-inner .action-copy {
+      text-align: center; }
+      .action .action-inner .action-copy h3 {
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1em;
+        margin: 0em;
+        color: #fff; }
+        @media screen and (min-width: 53.75em) {
+          .action .action-inner .action-copy h3 {
+            font-size: 1.5em;
+            color: #fff; } }
+        .action .action-inner .action-copy h3 a {
+          color: #D33D3D;
+          text-decoration: none;
+          transition: color 0.1s linear; }
+          .action .action-inner .action-copy h3 a:active, .action .action-inner .action-copy h3 a:focus, .action .action-inner .action-copy h3 a:hover {
+            color: #D33D3D;
+            text-decoration: line-through; }
+          .action .action-inner .action-copy h3 a:active, .action .action-inner .action-copy h3 a:focus {
+            outline: none; }
+    .action .action-inner button {
+      background-color: #FF5951;
+      border-radius: 3px;
+      border: 0;
+      color: white;
+      display: inline-block;
+      font-size: inherit;
+      font-weight: bold;
+      padding: 7px 18px;
+      text-decoration: none;
+      background-clip: padding-box;
+      padding: 0.8em 2em;
+      border-radius: 40px;
+      border: 3px solid #ffffff; }
+      .action .action-inner button:hover:not(:disabled) {
+        background-color: #ff716a;
+        cursor: pointer; }
+      .action .action-inner button:active:not(:disabled), .action .action-inner button:focus:not(:disabled) {
+        background-color: #fb443b;
+        cursor: pointer; }
+      .action .action-inner button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5; }
+      .action .action-inner button:hover, .action .action-inner button:focus {
+        background-color: #D33D3D;
+        color: #F4F4F4;
+        border: 3px solid #F4F4F4; }
 
 .mda {
   background-color: #FFBF00;
@@ -1587,18 +1658,21 @@ picture {
   padding: 3em;
   width: 100%; }
   .footer .footer-container {
-    padding: 10em 1em 7em 1em; }
+    padding: 4em 1em 4em 1em; }
     .footer .footer-container::after {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 53.75em) {
+      .footer .footer-container {
+        padding: 10em 1em 7em 1em; } }
   .footer a.email {
     color: #FF5951; }
     .footer a.email:hover {
       text-decoration: line-through; }
-  .footer a.rdio {
-    color: #008FD5; }
-    .footer a.rdio:hover {
+  .footer a.spotify {
+    color: #23CF5F; }
+    .footer a.spotify:hover {
       text-decoration: line-through; }
   .footer a.twitter {
     color: #4EACFF; }
@@ -1626,7 +1700,7 @@ picture {
     color: #F4F4F4;
     font-size: 1em;
     line-height: 1.5em;
-    margin: auto;
+    margin: 2em auto 0em auto;
     max-width: 35em;
     text-align: center; }
   .footer p.copyright {
