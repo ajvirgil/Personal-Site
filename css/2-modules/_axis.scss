@@ -1,0 +1,42 @@
+.axis {  
+  $base-border-radius: 3px !default;
+  $action-color: #D33D3D !default;
+  $large-screen: em(860) !default;
+  $hero-color: #fff;
+
+  background: linear-gradient(135deg, #65B2DB, #89DBE0); 
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 0;
+
+  .axis-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 9em 3em 6em 3em;
+    text-align: center;
+      @include media($large-screen) {
+            padding: 12em 0 10em 0;
+          
+          img {
+            max-width:100%
+        }
+          
+        }
+
+    button {
+      @include button(flat, $pink);
+      padding: 0.8em 2em;
+      border-radius: $base-border-radius;
+      border: 3px solid $white;
+        
+        &:hover,
+        &:focus {
+            background-color: $red;
+            color: $light-gray;
+            border: 3px solid $light-gray;
+  }
+    }
+  }
+}
