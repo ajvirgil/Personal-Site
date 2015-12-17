@@ -14,8 +14,7 @@
     @include clearfix;
     color: $hero-color;
     margin: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 2em;
     text-align: center;
       @include media($large-screen) {
             padding: 3em 0 3em 0;
@@ -25,16 +24,11 @@
       text-align: center;
 
       h3 {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 700;
         line-height: 1em;
         margin: 0em;
         color: #fff;
-
-        @include media($large-screen) {
-          font-size: 1.5em;
-          color: #fff;
-        }
       
         a {
   color: $red;

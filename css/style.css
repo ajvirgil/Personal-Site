@@ -1193,8 +1193,7 @@ picture {
     margin-right: auto;
     color: #fff;
     margin: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 2em;
     text-align: center; }
     .action .action-inner::after {
       clear: both;
@@ -1210,15 +1209,11 @@ picture {
     .action .action-inner .action-copy {
       text-align: center; }
       .action .action-inner .action-copy h3 {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 700;
         line-height: 1em;
         margin: 0em;
         color: #fff; }
-        @media screen and (min-width: 53.75em) {
-          .action .action-inner .action-copy h3 {
-            font-size: 1.5em;
-            color: #fff; } }
         .action .action-inner .action-copy h3 a {
           color: #D33D3D;
           text-decoration: none;
