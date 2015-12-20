@@ -268,7 +268,7 @@ textarea {
   select[multiple=multiple]:focus,
   textarea:focus {
     border-color: #FF5951;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(255, 65, 56, 0.7);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(255, 65, 55, 0.7);
     outline: none; }
 
 textarea {
@@ -439,7 +439,7 @@ picture {
       border-radius: 40px;
       border: 3px solid #ffffff; }
       .hero .hero-inner button:hover:not(:disabled) {
-        background-color: #ff716b;
+        background-color: #ff716a;
         cursor: pointer; }
       .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
         background-color: #fb443b;
@@ -826,7 +826,7 @@ picture {
     color: #ffffff;
     clear: both; }
     .portfolio button.project:hover:not(:disabled) {
-      background-color: #ff716b;
+      background-color: #ff716a;
       cursor: pointer; }
     .portfolio button.project:active:not(:disabled), .portfolio button.project:focus:not(:disabled) {
       background-color: #fb443b;
@@ -1153,7 +1153,7 @@ picture {
     color: #ffffff;
     clear: both; }
     .main button.project:hover:not(:disabled) {
-      background-color: #ff716b;
+      background-color: #ff716a;
       cursor: pointer; }
     .main button.project:active:not(:disabled), .main button.project:focus:not(:disabled) {
       background-color: #fb443b;
@@ -1238,7 +1238,7 @@ picture {
       border-radius: 40px;
       border: 3px solid #ffffff; }
       .action .action-inner button:hover:not(:disabled) {
-        background-color: #ff716b;
+        background-color: #ff716a;
         cursor: pointer; }
       .action .action-inner button:active:not(:disabled), .action .action-inner button:focus:not(:disabled) {
         background-color: #fb443b;
@@ -1310,7 +1310,7 @@ picture {
       border-radius: 40px;
       border: 3px solid #ffffff; }
       .mda .mda-inner button:hover:not(:disabled) {
-        background-color: #ff716b;
+        background-color: #ff716a;
         cursor: pointer; }
       .mda .mda-inner button:active:not(:disabled), .mda .mda-inner button:focus:not(:disabled) {
         background-color: #fb443b;
@@ -1538,10 +1538,11 @@ picture {
     font-size: 1.8em;
     margin-bottom: 1em;
     margin-top: .1em;
-    text-align: left; }
+    text-align: center; }
     @media screen and (min-width: 53.75em) {
       .project-base .project-base-copy h4 {
-        font-size: 2em; } }
+        font-size: 2em;
+        text-align: left; } }
   .project-base .project-base-copy p.project-base {
     margin-top: -1.8em;
     margin-bottom: 3em;
@@ -1619,7 +1620,7 @@ picture {
     color: #ffffff;
     clear: both; }
     .project-base button.project:hover:not(:disabled) {
-      background-color: #ff716b;
+      background-color: #ff716a;
       cursor: pointer; }
     .project-base button.project:active:not(:disabled), .project-base button.project:focus:not(:disabled) {
       background-color: #fb443b;
@@ -1689,7 +1690,7 @@ picture {
       border-radius: 40px;
       border: 3px solid #ffffff; }
       .axis .axis-inner button:hover:not(:disabled) {
-        background-color: #ff716b;
+        background-color: #ff716a;
         cursor: pointer; }
       .axis .axis-inner button:active:not(:disabled), .axis .axis-inner button:focus:not(:disabled) {
         background-color: #fb443b;
