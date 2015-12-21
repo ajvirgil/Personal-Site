@@ -20,6 +20,7 @@ body,
 .content-wrap {
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0,0,0);
 	-webkit-transition: -webkit-transform 0.4s;
 	transition: transform 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
