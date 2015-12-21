@@ -391,8 +391,7 @@ picture {
     margin-right: auto;
     color: #fff;
     margin: auto;
-    padding-top: 9em;
-    padding-bottom: 6em;
+    padding: 9em 1em 6em 1em;
     text-align: center; }
     .hero .hero-inner::after {
       clear: both;
@@ -408,7 +407,7 @@ picture {
     .hero .hero-inner .hero-copy {
       text-align: center; }
       .hero .hero-inner .hero-copy h1 {
-        font-size: 3.3em;
+        font-size: 3.2em;
         margin-bottom: 1em;
         margin-top: .1em; }
         @media screen and (min-width: 53.75em) {

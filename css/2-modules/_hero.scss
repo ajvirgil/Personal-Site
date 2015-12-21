@@ -14,8 +14,7 @@
     @include clearfix;
     color: $hero-color;
     margin: auto;
-    padding-top: 9em;
-    padding-bottom: 6em;
+    padding: 9em 1em 6em 1em;
     text-align: center;
       @include media($large-screen) {
             padding: 12em 0 10em 0;
@@ -25,7 +24,7 @@
       text-align: center;
       
       h1 {
-        font-size: 3.3em;
+        font-size: 3.2em;
         margin-bottom: 1em;
         margin-top: .1em;
 
