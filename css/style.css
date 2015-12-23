@@ -1548,9 +1548,9 @@ img:hover {
         font-size: 4em; } }
   .project-base .project-base-copy h4 {
     font-size: 1.8em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     margin-top: .1em;
-    text-align: center; }
+    text-align: left; }
     @media screen and (min-width: 53.75em) {
       .project-base .project-base-copy h4 {
         font-size: 2em;
@@ -1870,7 +1870,7 @@ body,
     clear: both;
     text-align: center;
     padding: 0.5em 0em;
-    margin: -20px 40px;
+    margin: -20px auto;
     font-size: 1.75em; } }
 /* Shown menu */
 .show-menu .content-wrap {

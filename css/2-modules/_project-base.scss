@@ -96,9 +96,9 @@
       
       h4 {
         font-size: 1.8em;
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
         margin-top: .1em;
-          text-align: center;
+          text-align: left;
 
         @include media($large-screen) {
           font-size: 2em;
