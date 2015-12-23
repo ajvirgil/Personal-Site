@@ -408,6 +408,7 @@ picture {
       text-align: center; }
       .hero .hero-inner .hero-copy h1 {
         font-size: 3.2em;
+        line-height: 1em;
         margin-bottom: 1em;
         margin-top: .1em; }
         @media screen and (min-width: 53.75em) {
@@ -1728,9 +1729,9 @@ img:hover {
     @media screen and (min-width: 53.75em) {
       .footer .footer-container {
         padding: 10em 1em 7em 1em; } }
-  .footer a.email {
-    color: #FF5951; }
-    .footer a.email:hover {
+  .footer a.github {
+    color: #4183c4; }
+    .footer a.github:hover {
       text-decoration: line-through; }
   .footer a.spotify {
     color: #23CF5F; }
