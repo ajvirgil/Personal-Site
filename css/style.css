@@ -206,7 +206,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Proxima Nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima-nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -235,7 +235,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Proxima Nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima-nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em; }
 
 label {
@@ -254,7 +254,7 @@ textarea {
   border-radius: 40px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Proxima Nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima-nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -340,7 +340,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #4A4A4A;
-  font-family: "Proxima Nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima-nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -350,7 +350,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Proxima Nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima-nova", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -391,7 +391,7 @@ picture {
     margin-right: auto;
     color: #fff;
     margin: auto;
-    padding: 9em .5em 6em .5em;
+    padding: 9em .75em 6em .75em;
     text-align: center; }
     .hero .hero-inner::after {
       clear: both;
@@ -475,7 +475,7 @@ picture {
     @media screen and (min-width: 53.75em) {
       .intro .intro-inner {
         text-align: left;
-        padding: 9em 1em 7em 1em; } }
+        padding: 9em 2em 7em 2em; } }
     .intro .intro-inner .col-4 {
       float: left;
       display: block;
@@ -603,7 +603,7 @@ picture {
       display: table; }
     @media screen and (min-width: 53.75em) {
       .skills .skills-inner {
-        padding: 9em 1em 7em 1em; } }
+        padding: 9em 2em 7em 2em; } }
     .skills .skills-inner .skills-container {
       max-width: 68em;
       margin-left: auto;
@@ -945,7 +945,7 @@ img:hover {
     margin-right: auto;
     color: #4A4A4A;
     margin: auto;
-    padding: 9em 2em 2em 2em;
+    padding: 9em 2em 6em 2em;
     text-align: center; }
     .main .main-inner::after {
       clear: both;
@@ -1411,7 +1411,7 @@ img:hover {
     margin-right: auto;
     color: #4A4A4A;
     margin: auto;
-    padding: 5em 1em 8em 1em;
+    padding: 5em 2em 1em 2em;
     text-align: center; }
     .project-base .project-base-inner::after {
       clear: both;

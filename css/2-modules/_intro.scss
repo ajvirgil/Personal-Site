@@ -19,7 +19,7 @@
     text-align: center;
       @include media($large-screen) {
             text-align: left;
-            padding: 9em 1em 7em 1em;
+            padding: 9em 2em 7em 2em;
         }
       
     .col-4 {
