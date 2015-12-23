@@ -84,6 +84,16 @@
     
     .project-base-copy {
         
+        img {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+        }
+        
         h2 {
             font-size: 3em;
             margin-top: -.2em;
